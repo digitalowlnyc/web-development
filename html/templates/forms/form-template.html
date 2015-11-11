@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style type="text/css">
+            .container {
+                font-family:arial helvetica, sans-serif;
+            }
+
+            .container label {
+                display:block;
+                clear:both;
+            }
+
+            .container input {
+                font-size: 2em;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="inputForm" class="container">
+            <form>
+                <label>Name: </label>
+                <input type="text" name="name" value="">
+
+                <label>E-mail:</label>
+                <input type="text" name="email" value="">
+
+                <label>Website:</label>
+                <input type="text" name="website" value="">
+
+                <label>Comment:</label>
+                <textarea name="comment" rows="5" cols="40">My text area</textarea>
+
+                <label>Gender:</label>
+                <span>
+                <input type="radio" name="sex" value="male" checked><label id="radioLabel">Male</label>
+                <input type="radio" name="sex" value="female"><Label>Female</Label>
+                </span>
+
+                <label>Car:</label>
+                <select id="sel" name="cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="fiat">Fiat</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </form>
+        </div>
+    </body>
+</html>
+
