@@ -6,6 +6,8 @@
  * -values
  * Strings:
  * -contains
+ * Arguments:
+ * -Default values
  */
 
 var BASICS = function() {
@@ -46,4 +48,11 @@ BASICS.stringContains = function(string, searchString) {
 		return false;
 	}
     return(string.indexOf(searchString) != -1);
+}
+
+BASICS.argDefault = function(arg, defaultValue) {
+	if(typeof arg === "undefined") {
+		return defaultValue;
+	}
+	return arg;
 }
