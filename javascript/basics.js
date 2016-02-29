@@ -13,6 +13,22 @@
 var BASICS = function() {
 }
 
+BASICS.get = function(obj, prop, defaultValue) {
+	if(obj === null) {
+		throw "Cannot get property from null object";
+	}
+	if(prop === null) {
+		throw "Cannot get 'null' property from object";
+	}
+	if(!(prop in obj)) {
+		if(typeof defaultValue !== "undefined") {
+			return defaultValue;
+		}
+		throw "Object " + obj + " does not contain property prop";
+	}
+	return obj[prop];
+};
+
 BASICS.objectSize = function(obj) {
 	var size = 0
     for(prop in obj) {
