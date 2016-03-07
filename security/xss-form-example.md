@@ -1,0 +1,1 @@
+"json-validate.php/"><script>alert(‘xss%20attack’)</script><br%20class="irrelevant"
