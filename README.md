@@ -4,7 +4,15 @@ This repo contains code samples, reference material (Stackoverflow links, etc), 
 
 License info is at the end of this readme.
 
-# Resources
+# Useful Tools
+Regexes:
+- Create, test, and generate code: https://regex101.com/
+
+JSON:
+- Validate and format: http://jsonlint.com/
+- Validate and format: http://bnest.co/tools/json-validate.php
+
+# Reference material
 
 #### Box model and sizing
 * http://stackoverflow.com/questions/21064101/understanding-offsetwidth-clientwidth-scrollwidth-and-height-respectively
