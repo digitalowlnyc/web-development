@@ -33,6 +33,9 @@ The answer is that you cannot. The reason is security. Imagine if I had a web pa
 Also, some sites include the "X-Frame-Options: SAMEORIGIN" response header which means you cannot load their content in an iframe at all.
 
 # CSS: How do I...
+###### Make my div adjust to the size of its background image
+A popular hack is to include an <img> inside of the div with the image, and to set it to `display: none`
+Reference: http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
 
 ###### Center text vertically
 Reference: http://stackoverflow.com/questions/2939914/vertically-align-text-in-a-div
