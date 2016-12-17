@@ -18,3 +18,6 @@ Summary: There are 3 ways:
 * If your div is a fixed height, 100px for example, set `line-height: 100px` and then add `vertical-align: middle`
 * Use table layout. You need to add a parent div with `display: table` and the content div should have `display: table-cell`. See linked example for exact CSS.
 * Use flex box layout
+
+###### Center text (or any inline element) horizontally
+Use `text-align: center`, which only applies to inline element positioning inside of its parent element
