@@ -26,6 +26,12 @@ JSON:
 #### Positioning
 * https://css-tricks.com/handling-z-index/
 
+# iframes: How do I...
+###### Run javascript or interact with the html content in an iFrame (on a different domain)
+The answer is that you cannot. The reason is security. Imagine if I had a web page that secretly had an iFrame in the background which launched your bank's login page. If I could interact with that page using JS from the parent, I could attempt to login as you with any saved credentials that your browser populates.
+
+Also, some sites include the "X-Frame-Options: SAMEORIGIN" response header which means you cannot load their content in an iframe at all.
+
 # CSS: How do I...
 
 ###### Center text vertically
