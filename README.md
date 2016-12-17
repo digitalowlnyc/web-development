@@ -34,7 +34,7 @@ Also, some sites include the "X-Frame-Options: SAMEORIGIN" response header which
 
 # CSS: How do I...
 ###### Make my div adjust to the size of its background image
-A popular hack is to include an <img> inside of the div with the image, and to set it to `display: none`
+A popular hack is to include an `<img>` inside of the div with the image, and to set it to `display: none`
 Reference: http://stackoverflow.com/questions/600743/how-to-get-div-height-to-auto-adjust-to-background-size
 
 ###### Center text vertically
