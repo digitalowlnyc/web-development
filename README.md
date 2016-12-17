@@ -10,7 +10,6 @@ Regexes:
 
 CSS - colors:
 - CSS Gradient creator: http://www.colorzilla.com/gradient-editor/
-- 
 
 JSON:
 - Validate and format: http://jsonlint.com/
