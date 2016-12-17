@@ -21,3 +21,6 @@ Summary: There are 3 ways:
 
 ###### Center text (or any inline element) horizontally
 Use `text-align: center`, which only applies to inline element positioning inside of its parent element
+
+###### Center a div horizontally
+Use `margin: 0 auto` and set a width on your div. 0 can be changed to whatever the top/bottom margin needs to be, `auto` is what does the centering.
