@@ -8,6 +8,10 @@ License info is at the end of this readme.
 Regexes:
 - Create, test, and generate code: https://regex101.com/
 
+CSS - colors:
+- CSS Gradient creator: http://www.colorzilla.com/gradient-editor/
+- 
+
 JSON:
 - Validate and format: http://jsonlint.com/
 - Validate and format: http://bnest.co/tools/json-validate.php
